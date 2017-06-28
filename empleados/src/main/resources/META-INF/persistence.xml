@@ -6,7 +6,7 @@
 		clases de Hibernate) Si hubiera puesto JTA, estaría delegando esa responsabilidad 
 		en el Contenedor/Servidor -->
 
-	<persistence-unit name="unit">
+	<persistence-unit name="unit"> 
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>edu.tecnilogica.entity.Regions</class>
 		<class>edu.tecnilogica.entity.Countries</class>
